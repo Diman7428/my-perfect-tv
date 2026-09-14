@@ -7231,10 +7231,8 @@ https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8
 https://cdn-dvr.ntv.ru/Balabol/index.m3u8
 #EXTINF:-1 tvg-id="Belarus1.by@SD" tvg-logo="https://epg.oneBelarus1.by@SD.png" group-title="БЕСПЛАТНЫЕ / General",Belarus-1 (1080p)
 https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Belarus1.by@HD" tvg-logo="https://epg.oneBelarus1.by@HD.png" group-title="БЕСПЛАТНЫЕ / General",Belarus-1 HD (1080p)
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus1.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Belarus2.by@HD" tvg-logo="https://epg.oneBelarus2.by@HD.png" group-title="БЕСПЛАТНЫЕ / Entertainment",Belarus-2 HD (1080p)
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Belarus3.by@HD" tvg-logo="https://epg.oneBelarus3.by@HD.png" group-title="БЕСПЛАТНЫЕ / Culture",Belarus-3 HD (1080p) [Not 24/7]
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Belarus5.by@SD" tvg-logo="https://epg.oneBelarus5.by@SD.png" group-title="БЕСПЛАТНЫЕ / Sports",Belarus-5 (1080p) [Not 24/7]
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Belarus5.by@HD" tvg-logo="https://epg.oneBelarus5.by@HD.png" group-title="БЕСПЛАТНЫЕ / Sports",Belarus-5 HD (1080p)
@@ -7327,8 +7325,6 @@ https://stream8.cinerama.uz/1421/tracks-v1a1/mono.m3u8
 http://185.23.80.23:8080/DumaTV/index.m3u8
 #EXTINF:-1 tvg-id="Dushevnoe.ru@HD" tvg-logo="https://epg.oneDushevnoe.ru@HD.png" group-title="БЕСПЛАТНЫЕ / Undefined",Dushevnoe HD (1080p)
 http://stream.mcquack.net/213/index.m3u8
-#EXTINF:-1 tvg-id="DW.de@Russian" tvg-logo="https://epg.oneDW.de@Russian.png" group-title="БЕСПЛАТНЫЕ / News",DW Russian (1080p)
-https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/master.m3u8
 #EXTINF:-1 tvg-id="Enisey.ru@SD" tvg-logo="https://epg.oneEnisey.ru@SD.png" group-title="БЕСПЛАТНЫЕ / General",Enisey (576p)
 http://tshift-1.telecoma.tv/enisei/index.m3u8
 #EXTINF:-1 tvg-id="ETVPlus.ee@SD" tvg-logo="https://epg.oneETVPlus.ee@SD.png" group-title="БЕСПЛАТНЫЕ / Entertainment",ETV+ (720p)
@@ -7411,8 +7407,6 @@ https://fs.uplink.kz/kinopremiera_hd/mono.m3u8?token=onlinetv
 http://stream.mcquack.net/170/index.m3u8
 #EXTINF:-1 tvg-id="Kinoseriya.ru@SD" tvg-logo="https://epg.oneKinoseriya.ru@SD.png" group-title="БЕСПЛАТНЫЕ / Movies",Kinoseriya (1080p)
 http://hls127.freeott.top:8080/Kinoseriya_HD/video.m3u8
-#EXTINF:-1 tvg-id="Kinosvidanie.ru@SD" tvg-logo="https://epg.oneKinosvidanie.ru@SD.png" group-title="БЕСПЛАТНЫЕ / Movies",Kinosvidanie (576p)
-http://5.188.159.128:8070/kinosvidanie/index.m3u8
 #EXTINF:-1 tvg-id="Kinouzhas.ru@SD" tvg-logo="https://epg.oneKinouzhas.ru@SD.png" group-title="БЕСПЛАТНЫЕ / Movies",Kinouzhas (576p)
 http://stream.mcquack.net/278/index.m3u8
 #EXTINF:-1 tvg-id="Kluch.ru@SD" tvg-logo="https://epg.oneKluch.ru@SD.png" group-title="БЕСПЛАТНЫЕ / Entertainment",Kluch (576p)
@@ -7433,8 +7427,6 @@ http://stream.mcquack.net/179/index.m3u8
 https://api.alpaca.t62a.com/hls/9110/stream0.m3u8
 #EXTINF:-1 tvg-id="KVNTV.ru@SD" tvg-logo="https://epg.oneKVNTV.ru@SD.png" group-title="БЕСПЛАТНЫЕ / Comedy",KVN TV (576p)
 http://178.124.179.122:8080/KVN-TV/index.m3u8
-#EXTINF:-1 tvg-id="LapkiLive.ru@SD" tvg-logo="https://epg.oneLapkiLive.ru@SD.png" group-title="БЕСПЛАТНЫЕ / Undefined",Lapki Live (576p)
-http://45.145.32.13:20440/unikum/index.m3u8?token=test
 #EXTINF:-1 tvg-id="LawTV.ru@SD" tvg-logo="https://epg.oneLawTV.ru@SD.png" group-title="БЕСПЛАТНЫЕ / General",Law TV (1080p)
 http://stream.mcquack.net/406/index.m3u8
 #EXTINF:-1 tvg-id="LifeTV.ee@SD" tvg-logo="https://epg.oneLifeTV.ee@SD.png" group-title="БЕСПЛАТНЫЕ / Religious",Life TV (432p) [Not 24/7]
@@ -7459,8 +7451,6 @@ http://stream.mcquack.net/169/index.m3u8
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1 tvg-id="Mir.ru@Kazakhstan" tvg-logo="https://epg.oneMir.ru@Kazakhstan.png" group-title="БЕСПЛАТНЫЕ / General",Mir Kazakhstan (576p)
 http://tvcdn01.esilnet.kz/tv/mir/index.m3u8
-#EXTINF:-1 tvg-id="MirSeriala.ru@SD" tvg-logo="https://epg.oneMirSeriala.ru@SD.png" group-title="БЕСПЛАТНЫЕ / Series",Mir Seriala (576p)
-http://45.145.32.13:20440/ctc_kids_hd/index.m3u8?token=test
 #EXTINF:-1 tvg-id="MMATVcom.ru@SD" tvg-logo="https://epg.oneMMATVcom.ru@SD.png" group-title="БЕСПЛАТНЫЕ / Sports",MMA TV.com (1080p)
 https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
 #EXTINF:-1 tvg-id="Moldova1.md@SD" tvg-logo="https://epg.oneMoldova1.md@SD.png" group-title="БЕСПЛАТНЫЕ / General",Moldova 1 (1080p)
@@ -7595,8 +7585,6 @@ http://stream.mcquack.net/421/index.m3u8
 https://stream8.cinerama.uz/1420/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Priklyucheniya.ru@HD" tvg-logo="https://epg.onePriklyucheniya.ru@HD.png" group-title="БЕСПЛАТНЫЕ / Undefined",Priklyucheniya HD (1080p)
 http://stream.mcquack.net/198/index.m3u8
-#EXTINF:-1 tvg-id="ProBusiness.ru@SD" tvg-logo="https://epg.oneProBusiness.ru@SD.png" group-title="БЕСПЛАТНЫЕ / Business",Pro Business (720p)
-https://tv-streaming.bsh.ru:21938/probusiness/probusiness.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="ProLyubov.ru@SD" tvg-logo="https://epg.oneProLyubov.ru@SD.png" group-title="БЕСПЛАТНЫЕ / Undefined",Pro Lyubov (1080p)
 http://hls127.freeott.top:8080/ProLubovHD/video.m3u8
 #EXTINF:-1 tvg-id="Prodvizhenie.ru@SD" tvg-logo="https://epg.oneProdvizhenie.ru@SD.png" group-title="БЕСПЛАТНЫЕ / Undefined",Prodvizhenie (1080p)
@@ -7609,8 +7597,6 @@ https://stream8.cinerama.uz/1431/tracks-v1a1/mono.m3u8
 http://stream.mcquack.net/397/index.m3u8
 #EXTINF:-1 tvg-id="RadaTV.ua@SD" tvg-logo="https://epg.oneRadaTV.ua@SD.png" group-title="БЕСПЛАТНЫЕ / Legislative",Rada TV (1080p)
 https://lowa8026-cmyk.github.io/Ukraine/Edyni_Novyny/RADA.m3u8
-#EXTINF:-1 tvg-id="Radio1.ru@SD" tvg-logo="https://epg.oneRadio1.ru@SD.png" group-title="БЕСПЛАТНЫЕ / General",Radio 1 (720p) [Geo-blocked]
-https://stream.radio1.ru/memfs/49dee7fe-77ba-4e6b-8cdc-fa840535b242.m3u8
 #EXTINF:-1 tvg-id="RadioMir.by@SD" tvg-logo="https://epg.oneRadioMir.by@SD.png" group-title="БЕСПЛАТНЫЕ / General",Radio Mir (720p)
 https://stream1.dc.beltelecom.by/radiomir/studio.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioRossii.ru@HD" tvg-logo="https://epg.oneRadioRossii.ru@HD.png" group-title="БЕСПЛАТНЫЕ / General",Radio Rossii (720p)
@@ -7683,8 +7669,6 @@ http://stream.mcquack.net/81/index.m3u8
 http://stream.mcquack.net/234/index.m3u8
 #EXTINF:-1 tvg-id="SetantaSports2Eurasia.ie@SD" tvg-logo="https://epg.oneSetantaSports2Eurasia.ie@SD.png" group-title="БЕСПЛАТНЫЕ / Sports",Setanta Sports 2 Eurasia (1080p)
 http://stream.mcquack.net/235/index.m3u8
-#EXTINF:-1 tvg-id="SetantaSportsPlusUkraine.ua@SD" tvg-logo="https://epg.oneSetantaSportsPlusUkraine.ua@SD.png" group-title="БЕСПЛАТНЫЕ / Sports",Setanta Sports+ Ukraine (1080p)
-http://stream.mcquack.net/390/index.m3u8
 #EXTINF:-1 tvg-id="SevimliTV.uz@SD" tvg-logo="https://epg.oneSevimliTV.uz@SD.png" group-title="БЕСПЛАТНЫЕ / Family",Sevimli TV (1080p)
 https://stream8.cinerama.uz/1017/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-id="ShansonTV.ru@SD" tvg-logo="https://epg.oneShansonTV.ru@SD.png" group-title="БЕСПЛАТНЫЕ / Music",Shanson TV (576p)
@@ -7831,8 +7815,6 @@ https://bl.rutube.ru/livestream/5c9327074e25ca86f3111d4085cbbb65/index.m3u8?e=20
 http://5.188.159.128:8070/udar/index.m3u8
 #EXTINF:-1 tvg-id="Ulytau.kz@SD" tvg-logo="https://epg.oneUlytau.kz@SD.png" group-title="БЕСПЛАТНЫЕ / General",Ulytau
 https://ulytau.tv/hls/master.m3u8
-#EXTINF:-1 tvg-id="Unikum.ru@SD" tvg-logo="https://epg.oneUnikum.ru@SD.png" group-title="БЕСПЛАТНЫЕ / Kids",Unikum (576p)
-http://45.145.32.13:20440/nauka/index.m3u8?token=test
 #EXTINF:-1 tvg-id="UniverTV.ru@SD" tvg-logo="https://epg.oneUniverTV.ru@SD.png" group-title="БЕСПЛАТНЫЕ / Undefined",Univer TV (1080p)
 https://cdn.universmotri.ru/live/smil:univer.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="UnknownRussia.ru@HD" tvg-logo="https://epg.oneUnknownRussia.ru@HD.png" group-title="БЕСПЛАТНЫЕ / Undefined",Unknown Russia HD (1080p)
@@ -7915,8 +7897,6 @@ https://stream8.cinerama.uz/1417/tracks-v1a1/mono.m3u8
 http://51.158.144.33:2021/zvezda/index.m3u8
 #EXTINF:-1 tvg-id="Zvezda.ru@HD" tvg-logo="https://epg.oneZvezda.ru@HD.png" group-title="БЕСПЛАТНЫЕ / General",Zvezda HD (1080p)
 https://tvzvezda.bonus-tv.ru/cdn/tvzvezda/playlist.m3u8
-#EXTINF:-1 tvg-id="ZvezdaPlus.ru@SD" tvg-logo="https://epg.oneZvezdaPlus.ru@SD.png" group-title="БЕСПЛАТНЫЕ / Undefined",Zvezda Plus (576p)
-http://45.145.32.13:20440/zvezdaplus/index.m3u8?token=test
 #EXTINF:-1 tvg-id="ZvezdaPlus.ru@HD" tvg-logo="https://epg.oneZvezdaPlus.ru@HD.png" group-title="БЕСПЛАТНЫЕ / Undefined",Zvezda Plus HD (1080p)
 http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist.m3u8
 #EXTINF:-1 tvg-id="AbazaTV.ru@SD" tvg-logo="https://epg.oneAbazaTV.ru@SD.png" group-title="БЕСПЛАТНЫЕ / General",АБАЗА-ТВ (1080p)
@@ -8021,8 +8001,6 @@ https://cdn.ntv.ru/ntv7/playlist.m3u8
 https://s97982.cdn.ngenix.net/hls/CH_R79_OTT_DV_HVSK_NTK/variant.m3u8
 #EXTINF:-1 tvg-id="NTM.ru@SD" tvg-logo="https://epg.oneNTM.ru@SD.png" group-title="БЕСПЛАТНЫЕ / General",НТМ (Народное телевидение Мордовии) (720p) [Not 24/7]
 https://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="NTS.ru@SD" tvg-logo="https://epg.oneNTS.ru@SD.png" group-title="БЕСПЛАТНЫЕ / General",НТС (Севастополь) (1080p) [Not 24/7]
-https://peqk71plnjy.a.trbcdn.net/livemaster/w4kz7pki62_nts_tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ObshchestvennoeNezavisimoeTelevidenie.ua@SD" tvg-logo="https://epg.oneObshchestvennoeNezavisimoeTelevidenie.ua@SD.png" group-title="БЕСПЛАТНЫЕ / News",Общественное Независимое Телевидение (576p)
 http://85.238.112.40:8810/hls_sec/239.33.75.33-.m3u8
 #EXTINF:-1 tvg-id="OSN.ru@SD" tvg-logo="https://epg.oneOSN.ru@SD.png" group-title="БЕСПЛАТНЫЕ / General",ОСН
@@ -8131,5 +8109,3 @@ https://hls-mycdn08724960135.cdnvideo.ru/mycdn08724960135/stream1/playlist.m3u8
 http://stream0.tv41.ru/live.m3u8
 #EXTINF:-1 tvg-id="Yuvelirochka.ru@SD" tvg-logo="https://epg.oneYuvelirochka.ru@SD.png" group-title="БЕСПЛАТНЫЕ / Shop",Ювелирочка ТВ (576p)
 https://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
-#EXTINF:-1 tvg-id="UgraTV.ru@SD" tvg-logo="https://epg.oneUgraTV.ru@SD.png" group-title="БЕСПЛАТНЫЕ / Undefined",Югра (1080p)
-https://live-ugratv.cdnvideo.ru/ugratv/ugratv/playlist.m3u8
