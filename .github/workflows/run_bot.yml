@@ -12,6 +12,8 @@ jobs:
     steps:
     - name: Загрузка репозитория
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
 
     - name: Настройка Python
       uses: actions/setup-python@v5
@@ -19,6 +21,13 @@ jobs:
         python-version: '3.x'
 
     - name: Запуск Супербота
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: python smart_bot.py
+
+    - name: Сохранение файла на сервер
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add hybrid_playlist.m3u
+        git commit -m "[Робот] Автообновление плейлиста" || echo "Нет изменений"
+        git pull origin main --rebase
+        git push origin main
