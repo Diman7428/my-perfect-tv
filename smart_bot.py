@@ -2,6 +2,8 @@ import os
 import re
 import urllib.request
 import urllib.error
+import json
+import base64
 
 # ==================== НАСТРОЙКИ ====================
 TARGET_URLS = [
@@ -10,190 +12,140 @@ TARGET_URLS = [
     "https://ilook.epg.one/U8VGFNCKR4XDKSAHAQHEW37N/2/img"
 ]
 
-
 OUTPUT_PLAYLIST = "hybrid_playlist.m3u"
 
-# Желаемый порядок групп на выходе
 GROUP_ORDER = [
-    "Фильмы И Сериалы",
-    "СНГ",
-    "Другие страны",
-    "Общие",
-    "Плюсовые",
-    "Новостные",
-    "Познавательные",
-    "Спортивные",
-    "Детские",
-    "Музыка"
+    "Фильмы И Сериалы", "СНГ", "Другие страны", "Общие",
+    "Плюсовые", "Новостные", "Познавательные", "Спортивные", "Детские", "Музыка"
 ]
 
-# СПИСОК ОЧИЩЕН — каналы не удаляются
 IGNORE_KEYWORDS = []
 
-# Точные совпадения для объединения (Регистр НЕ важен — пишем маленькими буквами)
 GROUP_REPLACEMENTS = {
-    # Объединение кино
-    "yosso tv": "Фильмы И Сериалы",
-    "kinoint": "Фильмы И Сериалы",
-    "кино": "Фильмы И Сериалы",
-    "кинозалы": "Фильмы И Сериалы",
-    "фильмы и сериалы": "Фильмы И Сериалы",
-    "z!": "Фильмы И Сериалы",
-    "z": "Фильмы И Сериалы",
-    
-    # Объединение спорта
-    "спорт": "Спортивные",
-    "спортивные": "Спортивные",
-    
-    # Объединение музыки (ошибка исправлена)
-    "музыка": "Музыка",
-    "музыкальные": "Музыка",
-    "musika": "Музыка",
-
-    # Объединение плюсовых каналов
-    "плюсовые": "Плюсовые",
-    "плюсовые (ru)": "Плюсовые",
-    "плюсовые(ru)": "Плюсовые",
-
-    # Объединение в категорию Общие
-    "федеральные": "Общие",
-    "россия (ru)": "Общие",
-    "россия(ru)": "Общие",
-    "россия": "Общие"
+    "yosso tv": "Фильмы И Сериалы", "kinoint": "Фильмы И Сериалы",
+    "кино": "Фильмы И Сериалы", "кинозалы": "Фильмы И Сериалы",
+    "фильмы и сериалы": "Фильмы И Сериалы", "z!": "Фильмы И Сериалы", "z": "Фильмы И Сериалы",
+    "спорт": "Спортивные", "спортивные": "Спортивные",
+    "музыка": "Музыка", "музыкальные": "Музыка", "musika": "Музыка",
+    "плюсовые": "Плюсовые", "плюсовые (ru)": "Плюсовые", "плюсовые(ru)": "Плюсовые",
+    "федеральные": "Общие", "россия (ru)": "Общие", "россия(ru)": "Общие", "россия": "Общие"
 }
 
-# Поиск стран СНГ (включая Узбекистан)
 CIS_KEYWORDS = [
-    "беларусь", "belarus", "украина", "ukraine",
-    "латвия", "latvia", "lettonia", "литва", "lithuania", "эстония", "estonia", "baltic", "балтия",
-    "армения", "armenia", "азербайджан", "azerbaijan", "казахстан", "kazakhstan",
-    "туркмения", "туркменистан", "turkmenistan", "узбекистан", "uzbekistan",
+    "беларусь", "belarus", "украина", "ukraine", "латвия", "latvia", "lettonia", "литва", "lithuania",
+    "эстония", "estonia", "baltic", "балтия", "армения", "armenia", "азербайджан", "azerbaijan",
+    "казахстан", "kazakhstan", "туркмения", "туркменистан", "turkmenistan", "узбекистан", "uzbekistan",
     "молдавия", "молдова", "moldova", "грузия", "georgia", "таджикистан", "tajikistan", "киргизия", "kyrgyzstan"
 ]
 
-# Поиск ВСЕХ остальных зарубежных стран для объединения
 WORLD_KEYWORDS = [
-    "германия", "germany", "poland", "польша", "turkey", "турция",
-    "хорватия", "croatia", "чехия", "czech", "швеция", "sweden",
-    "франция", "france", "италия", "italy", "испания", "spain",
-    "корея", "korea", "израиль", "israel", "болгария", "bulgaria", "канада", "canada",
-    "португалия", "portugal", "румыния", "romania", "словакия", "slovakia",
-    "финляндия", "finland", "сша", "usa", "саудовская", "arabia",
-    "австралия", "australia", "великобритания", "kingdom", "uk", "дания", "denmark",
-    "египет", "egypt", "индия", "india", "нидерланды", "netherlands", "бразилия", "brasil",
-    "арабские", "европа", "europe", "afrique", "африка", 
-    "норвегия", "norway", "оаэ", "uae"
+    "германия", "germany", "poland", "польша", "turkey", "турция", "хорватия", "croatia", "чехия", "czech",
+    "швеция", "sweden", "франция", "france", "италия", "italy", "испания", "spain", "корея", "korea",
+    "израиль", "israel", "болгария", "bulgaria", "канада", "canada", "португалия", "portugal", "румыния", "romania",
+    "словакия", "slovakia", "финляндия", "finland", "сша", "usa", "саудовская", "arabia", "австралия", "australia",
+    "великобритания", "kingdom", "uk", "дания", "denmark", "египет", "egypt", "индия", "india", "нидерланды", "netherlands",
+    "бразилия", "brasil", "арабские", "европа", "europe", "afrique", "африка", "норвегия", "norway", "оаэ", "uae"
 ]
 # ===================================================
-
-
-
-
 
 def download_playlist(url):
     print(f"Скачивание: {url}...")
     try:
-        req = urllib.request.Request(
-            url, 
-            headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
-        )
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'})
         with urllib.request.urlopen(req, timeout=15) as response:
             return response.read().decode('utf-8', errors='ignore')
-    except urllib.error.URLError as e:
-        print(f"Ошибка сети при скачивании {url}: {e.reason}")
     except Exception as e:
-        print(f"Непредвиденная ошибка при обработке {url}: {e}")
+        print(f"Ошибка скачивания: {e}")
     return ""
 
-def parse_m3u_content(content, replacements, cis_keywords, world_keywords, ignore_keywords):
+def parse_m3u_content(content):
     channels = []
     lines = content.splitlines()
-
     current_inf = None
     for line in lines:
         line = line.strip()
-        if not line:
-            continue
-        
-        if line.startswith("#EXTM3U"):
-            continue
-            
+        if not line or line.startswith("#EXTM3U"): continue
         if line.startswith("#EXTINF:"):
             current_inf = line
         elif not line.startswith("#") and current_inf:
             group_match = re.search(r'group-title="([^"]+)"', current_inf)
             original_group = group_match.group(1) if group_match else "Без группы"
-            
             lookup_key = original_group.strip().lower()
             
-            # Шаг 0: Проверка на полное удаление группы
-            if any(k in lookup_key for k in ignore_keywords):
-                current_inf = None  # Сбрасываем и пропускаем канал
+            if any(k in lookup_key for k in IGNORE_KEYWORDS):
+                current_inf = None
                 continue
-            
-            # Шаг 1: Распределение по оставшимся категориям
-            if any(k in lookup_key for k in cis_keywords):
-                final_group = "СНГ"
-            elif any(k in lookup_key for k in world_keywords):
-                final_group = "Другие страны"
-            else:
-                final_group = replacements.get(lookup_key, original_group.strip())
+            if any(k in lookup_key for k in CIS_KEYWORDS): final_group = "СНГ"
+            elif any(k in lookup_key for k in WORLD_KEYWORDS): final_group = "Другие страны"
+            else: final_group = GROUP_REPLACEMENTS.get(lookup_key, original_group.strip())
             
             if final_group != original_group:
-                if group_match:
-                    current_inf = current_inf.replace(f'group-title="{original_group}"', f'group-title="{final_group}"')
-                else:
-                    current_inf = current_inf.replace('#EXTINF:', f'#EXTINF: group-title="{final_group}",')
+                if group_match: current_inf = current_inf.replace(f'group-title="{original_group}"', f'group-title="{final_group}"')
+                else: current_inf = current_inf.replace('#EXTINF:', f'#EXTINF: group-title="{final_group}",')
             
-            channels.append({
-                "inf": current_inf,
-                "url": line,
-                "group": final_group
-            })
+            channels.append({"inf": current_inf, "url": line, "group": final_group})
             current_inf = None
-            
     return channels
 
-def save_combined_playlist(channels, output_path, group_order):
+def save_and_upload_playlist(channels):
     def sort_key(channel):
         group_name = channel["group"]
-        if group_name in group_order:
-            return (0, group_order.index(group_name), group_name)
-        else:
-            return (1, 0, group_name)
+        if group_name in GROUP_ORDER:
+            return (0, GROUP_ORDER.index(group_name), group_name)
+        return (1, 0, group_name)
 
     sorted_channels = sorted(channels, key=sort_key)
+    m3u_text = "#EXTM3U\n" + "".join(f"{ch['inf']}\n{ch['url']}\n" for ch in sorted_channels)
+    
+    with open(OUTPUT_PLAYLIST, 'w', encoding='utf-8') as f:
+        f.write(m3u_text)
+    print(f"Плейлист сохранен локально в {OUTPUT_PLAYLIST}.")
 
-    with open(output_path, 'w', encoding='utf-8') as f:
-        f.write("#EXTM3U\n")
-        for ch in sorted_channels:
-            f.write(f"{ch['inf']}\n")
-            f.write(f"{ch['url']}\n")
+    token = os.getenv("GITHUB_TOKEN")
+    repo = os.getenv("GITHUB_REPOSITORY")
+    if token and repo:
+        print("Обнаружена среда GitHub Actions. Отправка файла через API...")
+        url = f"https://github.com{repo}/contents/{OUTPUT_PLAYLIST}"
+        
+        sha = ""
+        try:
+            req = urllib.request.Request(url, headers={"Authorization": f"token {token}", "User-Agent": "IPTV-Bot"})
+            with urllib.request.urlopen(req) as res:
+                sha = json.loads(res.read().decode())["sha"]
+        except Exception: pass
+
+        content_b64 = base64.b64encode(m3u_text.encode('utf-8')).decode('utf-8')
+        data = {"message": "[Робот] Автообновление плейлиста", "content": content_b64, "branch": "main"}
+        if sha: data["sha"] = sha
+
+        try:
+            req = urllib.request.Request(
+                url, 
+                data=json.dumps(data).encode(), 
+                headers={"Authorization": f"token {token}", "Content-Type": "application/json", "User-Agent": "IPTV-Bot"}, 
+                method="PUT"
+            )
+            with urllib.request.urlopen(req) as res:
+                if res.status in:
+                    print("Плейлист успешно обновлен в репозитории через API GitHub!")
+        except Exception as e:
+            print(f"Не удалось обновить файл через API: {e}")
 
 def start_hybrid_bot():
     all_channels = []
     seen_urls = set()
-
     for url in TARGET_URLS:
         content = download_playlist(url)
-        if not content:
-            continue
-            
-        parsed = parse_m3u_content(content, GROUP_REPLACEMENTS, CIS_KEYWORDS, WORLD_KEYWORDS, IGNORE_KEYWORDS)
-        print(f"Успешно обработано. Найдено каналов: {len(parsed)}")
-        
-        for channel in parsed:
-            if channel["url"] not in seen_urls:
-                seen_urls.add(channel["url"])
-                all_channels.append(channel)
+        if not content: continue
+        parsed = parse_m3u_content(content)
+        print(f"Обработано. Каналов: {len(parsed)}")
+        for ch in parsed:
+            if ch["url"] not in seen_urls:
+                seen_urls.add(ch["url"])
+                all_channels.append(ch)
 
-    print(f"\nВсего уникальных каналов собрано: {len(all_channels)}")
-
-    if all_channels:
-        save_combined_playlist(all_channels, OUTPUT_PLAYLIST, GROUP_ORDER)
-        print(f"Результат сохранен в файл: {os.path.abspath(OUTPUT_PLAYLIST)}")
-    else:
-        print("Не удалось собрать ни одного канала. Файл не перезаписан.")
+    print(f"\nУникальных каналов собрано: {len(all_channels)}")
+    if all_channels: save_and_upload_playlist(all_channels)
 
 if __name__ == "__main__":
     start_hybrid_bot()
