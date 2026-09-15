@@ -126,10 +126,7 @@ def save_and_upload_playlist(channels):
                 method="PUT"
             )
             with urllib.request.urlopen(req) as res:
-                # Ошибка исправлена: проверяем успешный статус ответа API (200 или 201)
-                if res.status in:
-    print("Playlist successfully uploaded to GitHub via API!")
-
+                print("Playlist successfully uploaded to GitHub via API!")
         except Exception as e:
             print(f"API upload error: {e}")
 
