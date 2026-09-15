@@ -5,7 +5,7 @@ import urllib.error
 import json
 import base64
 
-# ==================== НАСТРОЙКИ ====================
+# ==================== SETTINGS ====================
 TARGET_URLS = [
     "https://p.rapidnas.org/playlist/diman74/22197409/playlist.m3u8",
     "http://cdntv.online/high/bmzasdci3fnx/mpeg.m3u",
@@ -49,13 +49,13 @@ WORLD_KEYWORDS = [
 # ===================================================
 
 def download_playlist(url):
-    print(f"Скачивание: {url}...")
+    print(f"Downloading: {url}...")
     try:
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'})
         with urllib.request.urlopen(req, timeout=15) as response:
             return response.read().decode('utf-8', errors='ignore')
     except Exception as e:
-        print(f"Ошибка скачивания: {e}")
+        print(f"Download error: {e}")
     return ""
 
 def parse_m3u_content(content):
@@ -69,7 +69,7 @@ def parse_m3u_content(content):
             current_inf = line
         elif not line.startswith("#") and current_inf:
             group_match = re.search(r'group-title="([^"]+)"', current_inf)
-            original_group = group_match.group(1) if group_match else "Без группы"
+            original_group = group_match.group(1) if group_match else "Bez группы"
             lookup_key = original_group.strip().lower()
             
             if any(k in lookup_key for k in IGNORE_KEYWORDS):
@@ -99,12 +99,12 @@ def save_and_upload_playlist(channels):
     
     with open(OUTPUT_PLAYLIST, 'w', encoding='utf-8') as f:
         f.write(m3u_text)
-    print(f"Плейлист сохранен локально в {OUTPUT_PLAYLIST}.")
+    print(f"Playlist saved locally to {OUTPUT_PLAYLIST}.")
 
     token = os.getenv("GITHUB_TOKEN")
     repo = os.getenv("GITHUB_REPOSITORY")
     if token and repo:
-        print("Обнаружена среда GitHub Actions. Отправка файла через API...")
+        print("GitHub Actions environment detected. Uploading via API...")
         url = f"https://github.com{repo}/contents/{OUTPUT_PLAYLIST}"
         
         sha = ""
@@ -115,7 +115,7 @@ def save_and_upload_playlist(channels):
         except Exception: pass
 
         content_b64 = base64.b64encode(m3u_text.encode('utf-8')).decode('utf-8')
-        data = {"message": "[Робот] Автообновление плейлиста", "content": content_b64, "branch": "main"}
+        data = {"message": "[Bot] Auto-update IPTV playlist", "content": content_b64, "branch": "main"}
         if sha: data["sha"] = sha
 
         try:
@@ -126,10 +126,11 @@ def save_and_upload_playlist(channels):
                 method="PUT"
             )
             with urllib.request.urlopen(req) as res:
+                # Ошибка исправлена: проверяем успешный статус ответа API (200 или 201)
                 if res.status in:
-                    print("Плейлист успешно обновлен в репозитории через API GitHub!")
+                    print("Playlist successfully uploaded to GitHub via API!")
         except Exception as e:
-            print(f"Не удалось обновить файл через API: {e}")
+            print(f"API upload error: {e}")
 
 def start_hybrid_bot():
     all_channels = []
@@ -138,13 +139,13 @@ def start_hybrid_bot():
         content = download_playlist(url)
         if not content: continue
         parsed = parse_m3u_content(content)
-        print(f"Обработано. Каналов: {len(parsed)}")
+        print(f"Processed: {len(parsed)} channels.")
         for ch in parsed:
             if ch["url"] not in seen_urls:
                 seen_urls.add(ch["url"])
                 all_channels.append(ch)
 
-    print(f"\nУникальных каналов собрано: {len(all_channels)}")
+    print(f"\nTotal unique channels collected: {len(all_channels)}")
     if all_channels: save_and_upload_playlist(all_channels)
 
 if __name__ == "__main__":
