@@ -2,8 +2,6 @@ import os
 import re
 import urllib.request
 import urllib.error
-import json
-import base64
 
 # ==================== SETTINGS ====================
 TARGET_URLS = [
@@ -87,7 +85,7 @@ def parse_m3u_content(content):
             current_inf = None
     return channels
 
-def save_and_upload_playlist(channels):
+def save_playlist(channels):
     def sort_key(channel):
         group_name = channel["group"]
         if group_name in GROUP_ORDER:
@@ -99,36 +97,7 @@ def save_and_upload_playlist(channels):
     
     with open(OUTPUT_PLAYLIST, 'w', encoding='utf-8') as f:
         f.write(m3u_text)
-    print(f"Playlist saved locally to {OUTPUT_PLAYLIST}.")
-
-    token = os.getenv("GITHUB_TOKEN")
-    repo = os.getenv("GITHUB_REPOSITORY")
-    if token and repo:
-        print("GitHub Actions environment detected. Uploading via API...")
-        url = f"https://github.com{repo}/contents/{OUTPUT_PLAYLIST}"
-        
-        sha = ""
-        try:
-            req = urllib.request.Request(url, headers={"Authorization": f"token {token}", "User-Agent": "IPTV-Bot"})
-            with urllib.request.urlopen(req) as res:
-                sha = json.loads(res.read().decode())["sha"]
-        except Exception: pass
-
-        content_b64 = base64.b64encode(m3u_text.encode('utf-8')).decode('utf-8')
-        data = {"message": "[Bot] Auto-update IPTV playlist", "content": content_b64, "branch": "main"}
-        if sha: data["sha"] = sha
-
-        try:
-            req = urllib.request.Request(
-                url, 
-                data=json.dumps(data).encode(), 
-                headers={"Authorization": f"token {token}", "Content-Type": "application/json", "User-Agent": "IPTV-Bot"}, 
-                method="PUT"
-            )
-            with urllib.request.urlopen(req) as res:
-                print("Playlist successfully uploaded to GitHub via API!")
-        except Exception as e:
-            print(f"API upload error: {e}")
+    print(f"Playlist successfully saved to {OUTPUT_PLAYLIST}.")
 
 def start_hybrid_bot():
     all_channels = []
@@ -144,7 +113,7 @@ def start_hybrid_bot():
                 all_channels.append(ch)
 
     print(f"\nTotal unique channels collected: {len(all_channels)}")
-    if all_channels: save_and_upload_playlist(all_channels)
+    if all_channels: save_playlist(all_channels)
 
 if __name__ == "__main__":
     start_hybrid_bot()
