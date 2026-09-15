@@ -11,7 +11,7 @@ TARGET_URLS = [
 ]
 
 
-OUTPUT_PLAYLIST = "combined_playlist.m3u"
+OUTPUT_PLAYLIST = "hybrid_playlist.m3u"
 
 # Желаемый порядок групп на выходе
 GROUP_ORDER = [
