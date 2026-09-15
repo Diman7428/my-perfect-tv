@@ -2,32 +2,32 @@ name: Hybrid IPTV Cloud Update
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Запуск каждые 6 часов
-  workflow_dispatch:       # Кнопка для ручного запуска в любой момент
+    - cron: '0 */6 * * *' # Обновление каждые 6 часов
+  workflow_dispatch: # Кнопка ручного запуска
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-    - name: Скачивание кода
+    - name: После загрузки кода
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
 
     - name: Включение Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.12'
-
-    - name: Установка библиотек
-      run: |
-        pip install -r requirements.txt
+        python-version: '3.x'
 
     - name: Запуск Супербота
       run: python smart_bot.py
 
     - name: Сохранение плейлиста в интернет
       run: |
-        git config --global user.name "hybrid-iptv-bot"
-        git config --global user.email "bot@github.com"
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
         git add hybrid_playlist.m3u
-        git commit -m "[Робот] Автоматическое обновление 4000+ каналов" || echo "Нет изменений"
-        git push
+        git commit -m "[Робот] Автоматическое обновление 4000+ каналов" || echo "Нет изменений для отправки"
+        git push origin main --force
+
