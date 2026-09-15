@@ -170,7 +170,7 @@ def save_combined_playlist(channels, output_path, group_order):
             f.write(f"{ch['inf']}\n")
             f.write(f"{ch['url']}\n")
 
-def main():
+def start_hybrid_bot():
     all_channels = []
     seen_urls = set()
 
@@ -196,6 +196,4 @@ def main():
         print("Не удалось собрать ни одного канала. Файл не перезаписан.")
 
 if __name__ == "__main__":
-    main()
-
     start_hybrid_bot()
