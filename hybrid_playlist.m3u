@@ -11097,6 +11097,10 @@ http://cdn.balelbrus.com/bigteisti18/08946929/index.m3u8?token=ZGltYW43NHx8TWpJe
 http://cdn.balelbrus.com/bigteisti18/08946930/index.m3u8?token=ZGltYW43NHx8TWpJeE9UYzBNRGs9
 #EXTINF:0  tvg-id="elb2243"  catchup="flussonic" catchup-days="3" tvg-name="ViP Sport Betking Live 3" group-title="Спортивные" tvg-logo="https://p.rapidnas.org/img/logos/sport/vipsport.jpg",ViP Sport Betking Live 3
 http://cdn.balelbrus.com/bigteisti3/aa_1_5004/index.m3u8?token=ZGltYW43NHx8TWpJeE9UYzBNRGs9
+#EXTINF:0  tvg-id="elb2243"  catchup="flussonic" catchup-days="3" tvg-name="ViP Sport Betking Live 4" group-title="Спортивные" tvg-logo="https://p.rapidnas.org/img/logos/sport/vipsport.jpg",ViP Sport Betking Live 4
+http://cdn.balelbrus.com/bigteisti6/aa_3_529/index.m3u8?token=ZGltYW43NHx8TWpJeE9UYzBNRGs9
+#EXTINF:0  tvg-id="elb2243"  catchup="flussonic" catchup-days="3" tvg-name="ViP Sport Betking Live 5" group-title="Спортивные" tvg-logo="https://p.rapidnas.org/img/logos/sport/vipsport.jpg",ViP Sport Betking Live 5
+http://cdn.balelbrus.com/bigteisti10/aa_3_648/index.m3u8?token=ZGltYW43NHx8TWpJeE9UYzBNRGs9
 #EXTINF:0  tvg-id="elb2311"  catchup="flussonic" catchup-days="3" tvg-name="Окко Спорт HD" group-title="Спортивные" tvg-logo="https://p.rapidnas.org/img/logos/sport/okko-sport.png",Окко Спорт HD
 http://cdn.balelbrus.com/bigteisti2/okko_sport/index.m3u8?token=ZGltYW43NHx8TWpJeE9UYzBNRGs9
 #EXTINF:0  tvg-id="elb2312"  catchup="flussonic" catchup-days="3" tvg-name="Окко Прайм Спорт HD" group-title="Спортивные" tvg-logo="https://p.rapidnas.org/img/logos/sport/okko-sport-2-n.png",Окко Прайм Спорт HD
