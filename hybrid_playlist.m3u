@@ -3237,8 +3237,6 @@ http://cdn.balelbrus.com/bigteisti1/TV_1/index.m3u8?token=ZGltYW43NHx8TWpJeE9UYz
 http://cdn.balelbrus.com/bigteisti1/TV_3_Lietuva/index.m3u8?token=ZGltYW43NHx8TWpJeE9UYzBNRGs9
 #EXTINF:0  tvg-id="elb4631"  catchup="flussonic" catchup-days="3" tvg-name="TV6 HD LT" group-title="СНГ" tvg-logo="https://p.rapidnas.org/img/logos/baltic/tv6-lt.png",TV6 HD LT
 http://cdn.balelbrus.com/bigteisti1/TV_6/index.m3u8?token=ZGltYW43NHx8TWpJeE9UYzBNRGs9
-#EXTINF:0  tvg-id="elb4633"  catchup="flussonic" catchup-days="3" tvg-name="TV7 LT" group-title="СНГ" tvg-logo="https://p.rapidnas.org/img/logos/baltic/ltv7.png",TV7 LT
-http://cdn.balelbrus.com/bigteisti20/09946938/index.m3u8?token=ZGltYW43NHx8TWpJeE9UYzBNRGs9
 #EXTINF:0  tvg-id="elb4632"  catchup="flussonic" catchup-days="3" tvg-name="TV8 HD LT" group-title="СНГ" tvg-logo="https://p.rapidnas.org/img/logos/baltic/tv8-lt.png",TV8 HD LT
 http://cdn.balelbrus.com/bigteisti1/TV_8_LT/index.m3u8?token=ZGltYW43NHx8TWpJeE9UYzBNRGs9
 #EXTINF:0  tvg-id="elb1627"  catchup="flussonic" catchup-days="3" tvg-name="Info TV HD LT" group-title="СНГ" tvg-logo="https://p.rapidnas.org/img/logos/baltic/info-tv.png",Info TV HD LT
