@@ -12467,7 +12467,7 @@ http://cdn.balelbrus.com/bigteisti9/18946926/index.m3u8?token=ZGltYW43NHx8TWpJeE
 http://cdn.balelbrus.com/bigteisti9/18946927/index.m3u8?token=ZGltYW43NHx8TWpJeE9UYzBNRGs9
 #EXTINF:0  tvg-id="elb2237"  catchup="flussonic" catchup-days="3" tvg-name="RTL 102.5 affic HD" group-title="Музыка" tvg-logo="https://p.rapidnas.org/img/logos/music/rtl1025it.png",RTL 102.5 affic HD
 http://cdn.balelbrus.com/bigteisti9/18946928/index.m3u8?token=ZGltYW43NHx8TWpJeE9UYzBNRGs9
-#EXTINF:0  tvg-id="elb2237"  catchup="flussonic" catchup-days="3" tvg-name="Retro Plus TV HD" group-title="Музыка" tvg-logo="https://p.rapidnas.org/img/logos/music/retroplustv.png",Retro Plus TV HD
+#EXTINF:0  tvg-id="elb2237"  catchup="flussonic" catchup-days="3" tvg-name="Retro Music TV CZ" group-title="Музыка" tvg-logo="https://p.rapidnas.org/img/logos/music/retro-music-cz.png",Retro Music TV CZ
 http://cdn.balelbrus.com/bigteisti9/18946929/index.m3u8?token=ZGltYW43NHx8TWpJeE9UYzBNRGs9
 #EXTINF:0  tvg-id="elb2237"  catchup="flussonic" catchup-days="3" tvg-name="NRJ Hits (BE)" group-title="Музыка" tvg-logo="https://p.rapidnas.org/img/logos/music/nrj-hits.png",NRJ Hits (BE)
 http://cdn.balelbrus.com/bigteisti2/music_nrj_hits/index.m3u8?token=ZGltYW43NHx8TWpJeE9UYzBNRGs9
