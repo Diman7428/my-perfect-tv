@@ -811,7 +811,7 @@ http://cdntv.online/high/bmzasdci3fnx/128.mpeg
 http://cdntv.online/high/bmzasdci3fnx/129.mpeg
 #EXTINF:0 tvg-id="130" tvg-logo="http://epg.cdntv.online/img/130.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Фильмы И Сериалы", НТВ хит
 http://cdntv.online/high/bmzasdci3fnx/130.mpeg
-#EXTINF:0 tvg-id="131" tvg-logo="http://epg.cdntv.online/img/131.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Фильмы И Сериалы", Настоящее страшное ТВ
+#EXTINF:0 tvg-id="131" tvg-logo="http://epg.cdntv.online/img/131.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Фильмы И Сериалы", НСТ
 http://cdntv.online/high/bmzasdci3fnx/131.mpeg
 #EXTINF:0 tvg-id="132" tvg-logo="http://epg.cdntv.online/img/132.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Фильмы И Сериалы", Наше новое кино
 http://cdntv.online/high/bmzasdci3fnx/132.mpeg
@@ -1081,8 +1081,6 @@ http://cdntv.online/high/bmzasdci3fnx/1522.mpeg
 http://cdntv.online/high/bmzasdci3fnx/1523.mpeg
 #EXTINF:0 tvg-id="1524" tvg-logo="http://epg.cdntv.online/img/1524.png" group-title="Фильмы И Сериалы", Sky High Quant S FHD
 http://cdntv.online/high/bmzasdci3fnx/1524.mpeg
-#EXTINF:0 tvg-id="1525" tvg-logo="http://epg.cdntv.online/img/1525.png" group-title="Фильмы И Сериалы", Sky High DRAMA 4K
-http://cdntv.online/high/bmzasdci3fnx/1525.mpeg
 #EXTINF:0 tvg-id="1526" tvg-logo="http://epg.cdntv.online/img/1526.png" group-title="Фильмы И Сериалы", Sky High Tanos S FHD
 http://cdntv.online/high/bmzasdci3fnx/1526.mpeg
 #EXTINF:0 tvg-id="1527" tvg-logo="http://epg.cdntv.online/img/1527.png" group-title="Фильмы И Сериалы", Sky High Bat S FHD
@@ -1129,62 +1127,12 @@ http://cdntv.online/high/bmzasdci3fnx/1553.mpeg
 http://cdntv.online/high/bmzasdci3fnx/1554.mpeg
 #EXTINF:0 tvg-id="1555" tvg-logo="http://epg.cdntv.online/img/1555.png" group-title="Фильмы И Сериалы", MS Toons HD
 http://cdntv.online/high/bmzasdci3fnx/1555.mpeg
-#EXTINF:0 tvg-id="1556" tvg-logo="http://epg.cdntv.online/img/1556.png" group-title="Фильмы И Сериалы", MS Young Blood HD
-http://cdntv.online/high/bmzasdci3fnx/1556.mpeg
 #EXTINF:0 tvg-id="1557" tvg-logo="http://epg.cdntv.online/img/1557.png" group-title="Фильмы И Сериалы", MS Magic HD
 http://cdntv.online/high/bmzasdci3fnx/1557.mpeg
-#EXTINF:0 tvg-id="1558" tvg-logo="http://epg.cdntv.online/img/1558.png" group-title="Фильмы И Сериалы", Play-x UHD
-http://cdntv.online/high/bmzasdci3fnx/1558.mpeg
-#EXTINF:0 tvg-id="1559" tvg-logo="http://epg.cdntv.online/img/1559.png" group-title="Фильмы И Сериалы", Clarity4K Кино СССР
-http://cdntv.online/high/bmzasdci3fnx/1559.mpeg
-#EXTINF:0 tvg-id="1560" tvg-logo="http://epg.cdntv.online/img/1560.png" group-title="Фильмы И Сериалы", Clarity4K Приключения
-http://cdntv.online/high/bmzasdci3fnx/1560.mpeg
-#EXTINF:0 tvg-id="1561" tvg-logo="http://epg.cdntv.online/img/1561.png" group-title="Фильмы И Сериалы", Clarity4K Ужасы
-http://cdntv.online/high/bmzasdci3fnx/1561.mpeg
-#EXTINF:0 tvg-id="1562" tvg-logo="http://epg.cdntv.online/img/1562.png" group-title="Фильмы И Сериалы", Clarity4K Фантастика
-http://cdntv.online/high/bmzasdci3fnx/1562.mpeg
-#EXTINF:0 tvg-id="1563" tvg-logo="http://epg.cdntv.online/img/1563.png" group-title="Фильмы И Сериалы", Clarity4k Драмы
-http://cdntv.online/high/bmzasdci3fnx/1563.mpeg
-#EXTINF:0 tvg-id="1564" tvg-logo="http://epg.cdntv.online/img/1564.png" group-title="Фильмы И Сериалы", Clarity4k Русские сериалы
-http://cdntv.online/high/bmzasdci3fnx/1564.mpeg
-#EXTINF:0 tvg-id="1565" tvg-logo="http://epg.cdntv.online/img/1565.png" group-title="Фильмы И Сериалы", Clarity4k Классика кино
-http://cdntv.online/high/bmzasdci3fnx/1565.mpeg
-#EXTINF:0 tvg-id="1566" tvg-logo="http://epg.cdntv.online/img/1566.png" group-title="Фильмы И Сериалы", Clarity4k Единоборства
-http://cdntv.online/high/bmzasdci3fnx/1566.mpeg
-#EXTINF:0 tvg-id="1567" tvg-logo="http://epg.cdntv.online/img/1567.png" group-title="Фильмы И Сериалы", Clarity4K Семейный
-http://cdntv.online/high/bmzasdci3fnx/1567.mpeg
-#EXTINF:0 tvg-id="1568" tvg-logo="http://epg.cdntv.online/img/1568.png" group-title="Фильмы И Сериалы", Clarity4K Travel blog
-http://cdntv.online/high/bmzasdci3fnx/1568.mpeg
-#EXTINF:0 tvg-id="1569" tvg-logo="http://epg.cdntv.online/img/1569.png" group-title="Фильмы И Сериалы", Clarity4K Звериный мир
-http://cdntv.online/high/bmzasdci3fnx/1569.mpeg
-#EXTINF:0 tvg-id="1570" tvg-logo="http://epg.cdntv.online/img/1570.png" group-title="Фильмы И Сериалы", Clarity4K КосмоМир
-http://cdntv.online/high/bmzasdci3fnx/1570.mpeg
-#EXTINF:0 tvg-id="1571" tvg-logo="http://epg.cdntv.online/img/1571.png" group-title="Фильмы И Сериалы", Clarity4K Ужасы  VHS
-http://cdntv.online/high/bmzasdci3fnx/1571.mpeg
-#EXTINF:0 tvg-id="1572" tvg-logo="http://epg.cdntv.online/img/1572.png" group-title="Фильмы И Сериалы", Clarity4k КиноФраншизы
-http://cdntv.online/high/bmzasdci3fnx/1572.mpeg
-#EXTINF:0 tvg-id="1573" tvg-logo="http://epg.cdntv.online/img/1573.png" group-title="Фильмы И Сериалы", Clarity4K Комедия
-http://cdntv.online/high/bmzasdci3fnx/1573.mpeg
-#EXTINF:0 tvg-id="1574" tvg-logo="http://epg.cdntv.online/img/1574.png" group-title="Фильмы И Сериалы", Clarity4k Боевик
-http://cdntv.online/high/bmzasdci3fnx/1574.mpeg
-#EXTINF:0 tvg-id="1575" tvg-logo="http://epg.cdntv.online/img/1575.png" group-title="Фильмы И Сериалы", Clarity4K Фэнтези
-http://cdntv.online/high/bmzasdci3fnx/1575.mpeg
-#EXTINF:0 tvg-id="1576" tvg-logo="http://epg.cdntv.online/img/1576.png" group-title="Фильмы И Сериалы", Clarity4K Walt Disney
-http://cdntv.online/high/bmzasdci3fnx/1576.mpeg
-#EXTINF:0 tvg-id="1577" tvg-logo="http://epg.cdntv.online/img/1577.png" group-title="Фильмы И Сериалы", Clarity4K Мультимир
-http://cdntv.online/high/bmzasdci3fnx/1577.mpeg
 #EXTINF:0 tvg-id="1580" tvg-logo="http://epg.cdntv.online/img/1580.png" group-title="Фильмы И Сериалы", CineMan Криминальные сериалы
 http://cdntv.online/high/bmzasdci3fnx/1580.mpeg
 #EXTINF:0 tvg-id="1581" tvg-logo="http://epg.cdntv.online/img/1581.png" group-title="Фильмы И Сериалы", CineMan Комедийные сериалы
 http://cdntv.online/high/bmzasdci3fnx/1581.mpeg
-#EXTINF:0 tvg-id="1583" tvg-logo="http://epg.cdntv.online/img/1583.png" group-title="Фильмы И Сериалы", Clarity4K Комедия СССР 2
-http://cdntv.online/high/bmzasdci3fnx/1583.mpeg
-#EXTINF:0 tvg-id="1584" tvg-logo="http://epg.cdntv.online/img/1584.png" group-title="Фильмы И Сериалы", Clarity4K Комедия СССР 1
-http://cdntv.online/high/bmzasdci3fnx/1584.mpeg
-#EXTINF:0 tvg-id="1585" tvg-logo="http://epg.cdntv.online/img/1585.png" group-title="Фильмы И Сериалы", Clarity4k Боевик VHS
-http://cdntv.online/high/bmzasdci3fnx/1585.mpeg
-#EXTINF:0 tvg-id="1587" tvg-logo="http://epg.cdntv.online/img/1587.png" group-title="Фильмы И Сериалы", Clarity4K UrbanBlack
-http://cdntv.online/high/bmzasdci3fnx/1587.mpeg
 #EXTINF:0 tvg-id="1588" tvg-logo="http://epg.cdntv.online/img/1588.png" group-title="Фильмы И Сериалы", CineMan Фитнес
 http://cdntv.online/high/bmzasdci3fnx/1588.mpeg
 #EXTINF:0 tvg-id="1590" tvg-logo="http://epg.cdntv.online/img/1590.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Фильмы И Сериалы", Советская киноклассика
@@ -1193,62 +1141,6 @@ http://cdntv.online/high/bmzasdci3fnx/1590.mpeg
 http://cdntv.online/high/bmzasdci3fnx/1629.mpeg
 #EXTINF:0 tvg-id="1641" tvg-logo="http://epg.cdntv.online/img/1641.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Фильмы И Сериалы", START Air
 http://cdntv.online/high/bmzasdci3fnx/1641.mpeg
-#EXTINF:0 tvg-id="1642" tvg-logo="http://epg.cdntv.online/img/1642.png" group-title="Фильмы И Сериалы", Clarity4k UFO
-http://cdntv.online/high/bmzasdci3fnx/1642.mpeg
-#EXTINF:0 tvg-id="1643" tvg-logo="http://epg.cdntv.online/img/1643.png" group-title="Фильмы И Сериалы", Clarity4K Молодежные комедии
-http://cdntv.online/high/bmzasdci3fnx/1643.mpeg
-#EXTINF:0 tvg-id="1644" tvg-logo="http://epg.cdntv.online/img/1644.png" group-title="Фильмы И Сериалы", Clarity4K Триллер
-http://cdntv.online/high/bmzasdci3fnx/1644.mpeg
-#EXTINF:0 tvg-id="1645" tvg-logo="http://epg.cdntv.online/img/1645.png" group-title="Фильмы И Сериалы", Clarity4K Мультляндия
-http://cdntv.online/high/bmzasdci3fnx/1645.mpeg
-#EXTINF:0 tvg-id="1646" tvg-logo="http://epg.cdntv.online/img/1646.png" group-title="Фильмы И Сериалы", Clarity4K Театр
-http://cdntv.online/high/bmzasdci3fnx/1646.mpeg
-#EXTINF:0 tvg-id="1647" tvg-logo="http://epg.cdntv.online/img/1647.png" group-title="Фильмы И Сериалы", Clarity4K France music
-http://cdntv.online/high/bmzasdci3fnx/1647.mpeg
-#EXTINF:0 tvg-id="1648" tvg-logo="http://epg.cdntv.online/img/1648.png" group-title="Фильмы И Сериалы", Clarity4k Сумеречный Эфир
-http://cdntv.online/high/bmzasdci3fnx/1648.mpeg
-#EXTINF:0 tvg-id="1649" tvg-logo="http://epg.cdntv.online/img/1649.png" group-title="Фильмы И Сериалы", Clarity4K Asia
-http://cdntv.online/high/bmzasdci3fnx/1649.mpeg
-#EXTINF:0 tvg-id="1650" tvg-logo="http://epg.cdntv.online/img/1650.png" group-title="Фильмы И Сериалы", Clarity4K Galaxy Films
-http://cdntv.online/high/bmzasdci3fnx/1650.mpeg
-#EXTINF:0 tvg-id="1651" tvg-logo="http://epg.cdntv.online/img/1651.png" group-title="Фильмы И Сериалы", Clarity4K Latin music
-http://cdntv.online/high/bmzasdci3fnx/1651.mpeg
-#EXTINF:0 tvg-id="1652" tvg-logo="http://epg.cdntv.online/img/1652.png" group-title="Фильмы И Сериалы", Clarity4K BluesString
-http://cdntv.online/high/bmzasdci3fnx/1652.mpeg
-#EXTINF:0 tvg-id="1653" tvg-logo="http://epg.cdntv.online/img/1653.png" group-title="Фильмы И Сериалы", Clarity4K World Music
-http://cdntv.online/high/bmzasdci3fnx/1653.mpeg
-#EXTINF:0 tvg-id="1654" tvg-logo="http://epg.cdntv.online/img/1654.png" group-title="Фильмы И Сериалы", Clarity4K Города
-http://cdntv.online/high/bmzasdci3fnx/1654.mpeg
-#EXTINF:0 tvg-id="1655" tvg-logo="http://epg.cdntv.online/img/1655.png" group-title="Фильмы И Сериалы", Clarity4K Ukrainian music
-http://cdntv.online/high/bmzasdci3fnx/1655.mpeg
-#EXTINF:0 tvg-id="1656" tvg-logo="http://epg.cdntv.online/img/1656.png" group-title="Фильмы И Сериалы", Clarity4K Korean music
-http://cdntv.online/high/bmzasdci3fnx/1656.mpeg
-#EXTINF:0 tvg-id="1657" tvg-logo="http://epg.cdntv.online/img/1657.png" group-title="Фильмы И Сериалы", Clarity4K Avto Blog
-http://cdntv.online/high/bmzasdci3fnx/1657.mpeg
-#EXTINF:0 tvg-id="1658" tvg-logo="http://epg.cdntv.online/img/1658.png" group-title="Фильмы И Сериалы", Clarity4K Bollywood music
-http://cdntv.online/high/bmzasdci3fnx/1658.mpeg
-#EXTINF:0 tvg-id="1659" tvg-logo="http://epg.cdntv.online/img/1659.png" group-title="Фильмы И Сериалы", Clarity4K Russian music
-http://cdntv.online/high/bmzasdci3fnx/1659.mpeg
-#EXTINF:0 tvg-id="1660" tvg-logo="http://epg.cdntv.online/img/1660.png" group-title="Фильмы И Сериалы", Clarity4k Anime
-http://cdntv.online/high/bmzasdci3fnx/1660.mpeg
-#EXTINF:0 tvg-id="1661" tvg-logo="http://epg.cdntv.online/img/1661.png" group-title="Фильмы И Сериалы", Clarity4K Heavy metal
-http://cdntv.online/high/bmzasdci3fnx/1661.mpeg
-#EXTINF:0 tvg-id="1662" tvg-logo="http://epg.cdntv.online/img/1662.png" group-title="Фильмы И Сериалы", Clarity4K КиноНовинки
-http://cdntv.online/high/bmzasdci3fnx/1662.mpeg
-#EXTINF:0 tvg-id="1663" tvg-logo="http://epg.cdntv.online/img/1663.png" group-title="Фильмы И Сериалы", Clarity4K Киношарм
-http://cdntv.online/high/bmzasdci3fnx/1663.mpeg
-#EXTINF:0 tvg-id="1664" tvg-logo="http://epg.cdntv.online/img/1664.png" group-title="Фильмы И Сериалы", Clarity4k Deep House
-http://cdntv.online/high/bmzasdci3fnx/1664.mpeg
-#EXTINF:0 tvg-id="1665" tvg-logo="http://epg.cdntv.online/img/1665.png" group-title="Фильмы И Сериалы", Clarity4K Kинодети CССР
-http://cdntv.online/high/bmzasdci3fnx/1665.mpeg
-#EXTINF:0 tvg-id="1666" tvg-logo="http://epg.cdntv.online/img/1666.png" group-title="Фильмы И Сериалы", Clarity4k DeepMe
-http://cdntv.online/high/bmzasdci3fnx/1666.mpeg
-#EXTINF:0 tvg-id="1667" tvg-logo="http://epg.cdntv.online/img/1667.png" group-title="Фильмы И Сериалы", Clarity4K Запал
-http://cdntv.online/high/bmzasdci3fnx/1667.mpeg
-#EXTINF:0 tvg-id="1668" tvg-logo="http://epg.cdntv.online/img/1668.png" group-title="Фильмы И Сериалы", Clarity4K RemasterWave
-http://cdntv.online/high/bmzasdci3fnx/1668.mpeg
-#EXTINF:0 tvg-id="1670" tvg-logo="http://epg.cdntv.online/img/1670.png" group-title="Фильмы И Сериалы", Clarity4K HBO series
-http://cdntv.online/high/bmzasdci3fnx/1670.mpeg
 #EXTINF:0 tvg-id="1675" tvg-logo="http://epg.cdntv.online/img/1675.png" group-title="Фильмы И Сериалы", Сити Эдем - КиноЭкшен
 http://cdntv.online/high/bmzasdci3fnx/1675.mpeg
 #EXTINF:0 tvg-id="1681" tvg-logo="http://epg.cdntv.online/img/1681.png" group-title="Фильмы И Сериалы", CineMan Air Crash
@@ -1439,106 +1331,8 @@ http://cdntv.online/high/bmzasdci3fnx/2205.mpeg
 http://cdntv.online/high/bmzasdci3fnx/2206.mpeg
 #EXTINF:0 tvg-id="2207" tvg-logo="http://epg.cdntv.online/img/2207.png" group-title="Фильмы И Сериалы", LIBERTY MUZYKA DE FHD
 http://cdntv.online/high/bmzasdci3fnx/2207.mpeg
-#EXTINF:0 tvg-id="2210" tvg-logo="http://epg.cdntv.online/img/2210.png" group-title="Фильмы И Сериалы", Clarity4k Вселенная
-http://cdntv.online/high/bmzasdci3fnx/2210.mpeg
-#EXTINF:0 tvg-id="2211" tvg-logo="http://epg.cdntv.online/img/2211.png" group-title="Фильмы И Сериалы", Clarity4K Комедия (VHS)
-http://cdntv.online/high/bmzasdci3fnx/2211.mpeg
-#EXTINF:0 tvg-id="2212" tvg-logo="http://epg.cdntv.online/img/2212.png" group-title="Фильмы И Сериалы", Clarity4K Gamefilm
-http://cdntv.online/high/bmzasdci3fnx/2212.mpeg
 #EXTINF:0 tvg-id="2214" tvg-logo="http://epg.cdntv.online/img/2214.png" group-title="Фильмы И Сериалы", CineMan СССР
 http://cdntv.online/high/bmzasdci3fnx/2214.mpeg
-#EXTINF:0 tvg-id="2215" tvg-logo="http://epg.cdntv.online/img/2215.png" group-title="Фильмы И Сериалы", Play-x Тайны Чапман HD
-http://cdntv.online/high/bmzasdci3fnx/2215.mpeg
-#EXTINF:0 tvg-id="2216" tvg-logo="http://epg.cdntv.online/img/2216.png" group-title="Фильмы И Сериалы", Play-x Про людей и войну HD
-http://cdntv.online/high/bmzasdci3fnx/2216.mpeg
-#EXTINF:0 tvg-id="2217" tvg-logo="http://epg.cdntv.online/img/2217.png" group-title="Фильмы И Сериалы", Play-x География уральских пельменей HD
-http://cdntv.online/high/bmzasdci3fnx/2217.mpeg
-#EXTINF:0 tvg-id="2218" tvg-logo="http://epg.cdntv.online/img/2218.png" group-title="Фильмы И Сериалы", Play-x Военная приемка HD
-http://cdntv.online/high/bmzasdci3fnx/2218.mpeg
-#EXTINF:0 tvg-id="2219" tvg-logo="http://epg.cdntv.online/img/2219.png" group-title="Фильмы И Сериалы", Play-x Импровизаторы HD
-http://cdntv.online/high/bmzasdci3fnx/2219.mpeg
-#EXTINF:0 tvg-id="2220" tvg-logo="http://epg.cdntv.online/img/2220.png" group-title="Фильмы И Сериалы", Play-x 6 кадров HD
-http://cdntv.online/high/bmzasdci3fnx/2220.mpeg
-#EXTINF:0 tvg-id="2221" tvg-logo="http://epg.cdntv.online/img/2221.png" group-title="Фильмы И Сериалы", Play-x music Enigmatic HD
-http://cdntv.online/high/bmzasdci3fnx/2221.mpeg
-#EXTINF:0 tvg-id="2222" tvg-logo="http://epg.cdntv.online/img/2222.png" group-title="Фильмы И Сериалы", Play-x Между нами HD
-http://cdntv.online/high/bmzasdci3fnx/2222.mpeg
-#EXTINF:0 tvg-id="2223" tvg-logo="http://epg.cdntv.online/img/2223.png" group-title="Фильмы И Сериалы", Play-x Beast Games HD
-http://cdntv.online/high/bmzasdci3fnx/2223.mpeg
-#EXTINF:0 tvg-id="2224" tvg-logo="http://epg.cdntv.online/img/2224.png" group-title="Фильмы И Сериалы", Play-x Последний герой HD
-http://cdntv.online/high/bmzasdci3fnx/2224.mpeg
-#EXTINF:0 tvg-id="2225" tvg-logo="http://epg.cdntv.online/img/2225.png" group-title="Фильмы И Сериалы", Play-x Русская дорога HD
-http://cdntv.online/high/bmzasdci3fnx/2225.mpeg
-#EXTINF:0 tvg-id="2226" tvg-logo="http://epg.cdntv.online/img/2226.png" group-title="Фильмы И Сериалы", Play-x Уральские пельмени HD
-http://cdntv.online/high/bmzasdci3fnx/2226.mpeg
-#EXTINF:0 tvg-id="2227" tvg-logo="http://epg.cdntv.online/img/2227.png" group-title="Фильмы И Сериалы", Play-x (90-е) HD
-http://cdntv.online/high/bmzasdci3fnx/2227.mpeg
-#EXTINF:0 tvg-id="2228" tvg-logo="http://epg.cdntv.online/img/2228.png" group-title="Фильмы И Сериалы", Play-x Кинозал 1 HD
-http://cdntv.online/high/bmzasdci3fnx/2228.mpeg
-#EXTINF:0 tvg-id="2229" tvg-logo="http://epg.cdntv.online/img/2229.png" group-title="Фильмы И Сериалы", Play-x Женский стендап HD
-http://cdntv.online/high/bmzasdci3fnx/2229.mpeg
-#EXTINF:0 tvg-id="2230" tvg-logo="http://epg.cdntv.online/img/2230.png" group-title="Фильмы И Сериалы", Play-x Кинозал 23 HD
-http://cdntv.online/high/bmzasdci3fnx/2230.mpeg
-#EXTINF:0 tvg-id="2231" tvg-logo="http://epg.cdntv.online/img/2231.png" group-title="Фильмы И Сериалы", Play-x Пограничный HD
-http://cdntv.online/high/bmzasdci3fnx/2231.mpeg
-#EXTINF:0 tvg-id="2232" tvg-logo="http://epg.cdntv.online/img/2232.png" group-title="Фильмы И Сериалы", Play-x Кинозал 2 HD
-http://cdntv.online/high/bmzasdci3fnx/2232.mpeg
-#EXTINF:0 tvg-id="2233" tvg-logo="http://epg.cdntv.online/img/2233.png" group-title="Фильмы И Сериалы", Play-x Кинозал 3 HD
-http://cdntv.online/high/bmzasdci3fnx/2233.mpeg
-#EXTINF:0 tvg-id="2234" tvg-logo="http://epg.cdntv.online/img/2234.png" group-title="Фильмы И Сериалы", Play-x Кинозал 4 HD
-http://cdntv.online/high/bmzasdci3fnx/2234.mpeg
-#EXTINF:0 tvg-id="2235" tvg-logo="http://epg.cdntv.online/img/2235.png" group-title="Фильмы И Сериалы", Play-x Кинозал 5 HD
-http://cdntv.online/high/bmzasdci3fnx/2235.mpeg
-#EXTINF:0 tvg-id="2236" tvg-logo="http://epg.cdntv.online/img/2236.png" group-title="Фильмы И Сериалы", Play-x Кинозал 6 HD
-http://cdntv.online/high/bmzasdci3fnx/2236.mpeg
-#EXTINF:0 tvg-id="2237" tvg-logo="http://epg.cdntv.online/img/2237.png" group-title="Фильмы И Сериалы", Play-x Кинозал 7 HD
-http://cdntv.online/high/bmzasdci3fnx/2237.mpeg
-#EXTINF:0 tvg-id="2238" tvg-logo="http://epg.cdntv.online/img/2238.png" group-title="Фильмы И Сериалы", Play-x Кинозал 8 HD
-http://cdntv.online/high/bmzasdci3fnx/2238.mpeg
-#EXTINF:0 tvg-id="2239" tvg-logo="http://epg.cdntv.online/img/2239.png" group-title="Фильмы И Сериалы", Play-x Кинозал 9 HD
-http://cdntv.online/high/bmzasdci3fnx/2239.mpeg
-#EXTINF:0 tvg-id="2240" tvg-logo="http://epg.cdntv.online/img/2240.png" group-title="Фильмы И Сериалы", Play-x Кинозал 12 HD
-http://cdntv.online/high/bmzasdci3fnx/2240.mpeg
-#EXTINF:0 tvg-id="2241" tvg-logo="http://epg.cdntv.online/img/2241.png" group-title="Фильмы И Сериалы", Play-x Кинозал 13 HD
-http://cdntv.online/high/bmzasdci3fnx/2241.mpeg
-#EXTINF:0 tvg-id="2242" tvg-logo="http://epg.cdntv.online/img/2242.png" group-title="Фильмы И Сериалы", Play-x Кинозал 14 HD
-http://cdntv.online/high/bmzasdci3fnx/2242.mpeg
-#EXTINF:0 tvg-id="2243" tvg-logo="http://epg.cdntv.online/img/2243.png" group-title="Фильмы И Сериалы", Play-x Кинозал 15 HD
-http://cdntv.online/high/bmzasdci3fnx/2243.mpeg
-#EXTINF:0 tvg-id="2244" tvg-logo="http://epg.cdntv.online/img/2244.png" group-title="Фильмы И Сериалы", Play-x Кинозал 11 HD
-http://cdntv.online/high/bmzasdci3fnx/2244.mpeg
-#EXTINF:0 tvg-id="2245" tvg-logo="http://epg.cdntv.online/img/2245.png" group-title="Фильмы И Сериалы", Play-x Кинозал 10 HD
-http://cdntv.online/high/bmzasdci3fnx/2245.mpeg
-#EXTINF:0 tvg-id="2246" tvg-logo="http://epg.cdntv.online/img/2246.png" group-title="Фильмы И Сериалы", Play-x Кинозал 16 HD
-http://cdntv.online/high/bmzasdci3fnx/2246.mpeg
-#EXTINF:0 tvg-id="2247" tvg-logo="http://epg.cdntv.online/img/2247.png" group-title="Фильмы И Сериалы", Play-x Кинозал 17 HD
-http://cdntv.online/high/bmzasdci3fnx/2247.mpeg
-#EXTINF:0 tvg-id="2248" tvg-logo="http://epg.cdntv.online/img/2248.png" group-title="Фильмы И Сериалы", Play-x Кинозал 18 HD
-http://cdntv.online/high/bmzasdci3fnx/2248.mpeg
-#EXTINF:0 tvg-id="2249" tvg-logo="http://epg.cdntv.online/img/2249.png" group-title="Фильмы И Сериалы", Play-x Кинозал 19 HD
-http://cdntv.online/high/bmzasdci3fnx/2249.mpeg
-#EXTINF:0 tvg-id="2250" tvg-logo="http://epg.cdntv.online/img/2250.png" group-title="Фильмы И Сериалы", Play-x Кинозал 20 HD
-http://cdntv.online/high/bmzasdci3fnx/2250.mpeg
-#EXTINF:0 tvg-id="2251" tvg-logo="http://epg.cdntv.online/img/2251.png" group-title="Фильмы И Сериалы", Play-x Кинозал 21 HD
-http://cdntv.online/high/bmzasdci3fnx/2251.mpeg
-#EXTINF:0 tvg-id="2252" tvg-logo="http://epg.cdntv.online/img/2252.png" group-title="Фильмы И Сериалы", Play-x Кинозал 22 HD
-http://cdntv.online/high/bmzasdci3fnx/2252.mpeg
-#EXTINF:0 tvg-id="2253" tvg-logo="http://epg.cdntv.online/img/2253.png" group-title="Фильмы И Сериалы", Play-x Баскетбол USA HD
-http://cdntv.online/high/bmzasdci3fnx/2253.mpeg
-#EXTINF:0 tvg-id="2254" tvg-logo="http://epg.cdntv.online/img/2254.png" group-title="Фильмы И Сериалы", Play-x Муз Блатной Хит HD
-http://cdntv.online/high/bmzasdci3fnx/2254.mpeg
-#EXTINF:0 tvg-id="2255" tvg-logo="http://epg.cdntv.online/img/2255.png" group-title="Фильмы И Сериалы", Play-x Муз Golden Hits 90s HD
-http://cdntv.online/high/bmzasdci3fnx/2255.mpeg
-#EXTINF:0 tvg-id="2256" tvg-logo="http://epg.cdntv.online/img/2256.png" group-title="Фильмы И Сериалы", Play-x Муз Music 80s HD
-http://cdntv.online/high/bmzasdci3fnx/2256.mpeg
-#EXTINF:0 tvg-id="2257" tvg-logo="http://epg.cdntv.online/img/2257.png" group-title="Фильмы И Сериалы", Play-x Муз Rock Pop Ballads HD
-http://cdntv.online/high/bmzasdci3fnx/2257.mpeg
-#EXTINF:0 tvg-id="2258" tvg-logo="http://epg.cdntv.online/img/2258.png" group-title="Фильмы И Сериалы", Play-x Муз Муз Золотой век HD
-http://cdntv.online/high/bmzasdci3fnx/2258.mpeg
-#EXTINF:0 tvg-id="2259" tvg-logo="http://epg.cdntv.online/img/2259.png" group-title="Фильмы И Сериалы", Play-x Муз Old School Hits HD
-http://cdntv.online/high/bmzasdci3fnx/2259.mpeg
-#EXTINF:0 tvg-id="2260" tvg-logo="http://epg.cdntv.online/img/2260.png" group-title="Фильмы И Сериалы", Play-x Игра (тнт) HD
-http://cdntv.online/high/bmzasdci3fnx/2260.mpeg
 #EXTINF:0 tvg-id="2263" tvg-logo="http://epg.cdntv.online/img/2263.png" group-title="Фильмы И Сериалы", Sky High Beyonds FHD
 http://cdntv.online/high/bmzasdci3fnx/2263.mpeg
 #EXTINF:0 tvg-id="2264" tvg-logo="http://epg.cdntv.online/img/2264.png" group-title="Фильмы И Сериалы", Sky High Nord S FHD
@@ -1583,6 +1377,64 @@ http://cdntv.online/high/bmzasdci3fnx/2298.mpeg
 http://cdntv.online/high/bmzasdci3fnx/2300.mpeg
 #EXTINF:0 tvg-id="2302" tvg-logo="http://epg.cdntv.online/img/2302.png" group-title="Фильмы И Сериалы", LIBERTY Планктон
 http://cdntv.online/high/bmzasdci3fnx/2302.mpeg
+#EXTINF:0 tvg-id="2305" tvg-logo="http://epg.cdntv.online/img/2305.png" group-title="Фильмы И Сериалы", KBC-Легендарное HD
+http://cdntv.online/high/bmzasdci3fnx/2305.mpeg
+#EXTINF:0 tvg-id="2306" tvg-logo="http://epg.cdntv.online/img/2306.png" group-title="Фильмы И Сериалы", KBC-Кошмарное HD
+http://cdntv.online/high/bmzasdci3fnx/2306.mpeg
+#EXTINF:0 tvg-id="2307" tvg-logo="http://epg.cdntv.online/img/2307.png" group-title="Фильмы И Сериалы", KBC-Видак HD
+http://cdntv.online/high/bmzasdci3fnx/2307.mpeg
+#EXTINF:0 tvg-id="2308" tvg-logo="http://epg.cdntv.online/img/2308.png" group-title="Фильмы И Сериалы", KBC-ДрамаTic HD
+http://cdntv.online/high/bmzasdci3fnx/2308.mpeg
+#EXTINF:0 tvg-id="2309" tvg-logo="http://epg.cdntv.online/img/2309.png" group-title="Фильмы И Сериалы", KBC-Союзмультзал
+http://cdntv.online/high/bmzasdci3fnx/2309.mpeg
+#EXTINF:0 tvg-id="2310" tvg-logo="http://epg.cdntv.online/img/2310.png" group-title="Фильмы И Сериалы", KBC+100500 (18+)
+http://cdntv.online/high/bmzasdci3fnx/2310.mpeg
+#EXTINF:0 tvg-id="2311" tvg-logo="http://epg.cdntv.online/img/2311.png" group-title="Фильмы И Сериалы", KBC-Elite comedy HD
+http://cdntv.online/high/bmzasdci3fnx/2311.mpeg
+#EXTINF:0 tvg-id="2312" tvg-logo="http://epg.cdntv.online/img/2312.png" group-title="Фильмы И Сериалы", KBC-Russian Комедия HD
+http://cdntv.online/high/bmzasdci3fnx/2312.mpeg
+#EXTINF:0 tvg-id="2313" tvg-logo="http://epg.cdntv.online/img/2313.png" group-title="Фильмы И Сериалы", KBC-Family Animation HD
+http://cdntv.online/high/bmzasdci3fnx/2313.mpeg
+#EXTINF:0 tvg-id="2314" tvg-logo="http://epg.cdntv.online/img/2314.png" group-title="Фильмы И Сериалы", KBC-В.О.В. HD
+http://cdntv.online/high/bmzasdci3fnx/2314.mpeg
+#EXTINF:0 tvg-id="2315" tvg-logo="http://epg.cdntv.online/img/2315.png" group-title="Фильмы И Сериалы", KBC-Страна СССР
+http://cdntv.online/high/bmzasdci3fnx/2315.mpeg
+#EXTINF:0 tvg-id="2316" tvg-logo="http://epg.cdntv.online/img/2316.png" group-title="Фильмы И Сериалы", KBC-Шпионское HD
+http://cdntv.online/high/bmzasdci3fnx/2316.mpeg
+#EXTINF:0 tvg-id="2317" tvg-logo="http://epg.cdntv.online/img/2317.png" group-title="Фильмы И Сериалы", KBC-Comics HD
+http://cdntv.online/high/bmzasdci3fnx/2317.mpeg
+#EXTINF:0 tvg-id="2318" tvg-logo="http://epg.cdntv.online/img/2318.png" group-title="Фильмы И Сериалы", KBC-АНИМЕ HD
+http://cdntv.online/high/bmzasdci3fnx/2318.mpeg
+#EXTINF:0 tvg-id="2319" tvg-logo="http://epg.cdntv.online/img/2319.png" group-title="Фильмы И Сериалы", KBC-History HD
+http://cdntv.online/high/bmzasdci3fnx/2319.mpeg
+#EXTINF:0 tvg-id="2320" tvg-logo="http://epg.cdntv.online/img/2320.png" group-title="Фильмы И Сериалы", KBC-Fantastic HD
+http://cdntv.online/high/bmzasdci3fnx/2320.mpeg
+#EXTINF:0 tvg-id="2321" tvg-logo="http://epg.cdntv.online/img/2321.png" group-title="Фильмы И Сериалы", KBC-Newfilm HD
+http://cdntv.online/high/bmzasdci3fnx/2321.mpeg
+#EXTINF:0 tvg-id="2322" tvg-logo="http://epg.cdntv.online/img/2322.png" group-title="Фильмы И Сериалы", KBC-ГОБЛИН HD
+http://cdntv.online/high/bmzasdci3fnx/2322.mpeg
+#EXTINF:0 tvg-id="2323" tvg-logo="http://epg.cdntv.online/img/2323.png" group-title="Фильмы И Сериалы", KBC-Вестерн HD
+http://cdntv.online/high/bmzasdci3fnx/2323.mpeg
+#EXTINF:0 tvg-id="2324" tvg-logo="http://epg.cdntv.online/img/2324.png" group-title="Фильмы И Сериалы", KBC-WAR HD
+http://cdntv.online/high/bmzasdci3fnx/2324.mpeg
+#EXTINF:0 tvg-id="2325" tvg-logo="http://epg.cdntv.online/img/2325.png" group-title="Фильмы И Сериалы", KBC-ГАЙ Ritchie Tarantino
+http://cdntv.online/high/bmzasdci3fnx/2325.mpeg
+#EXTINF:0 tvg-id="2326" tvg-logo="http://epg.cdntv.online/img/2326.png" group-title="Фильмы И Сериалы", KBC-Animals HD
+http://cdntv.online/high/bmzasdci3fnx/2326.mpeg
+#EXTINF:0 tvg-id="2327" tvg-logo="http://epg.cdntv.online/img/2327.png" group-title="Фильмы И Сериалы", KBC-MusKino HD
+http://cdntv.online/high/bmzasdci3fnx/2327.mpeg
+#EXTINF:0 tvg-id="2328" tvg-logo="http://epg.cdntv.online/img/2328.png" group-title="Фильмы И Сериалы", KBC-СпортМикс HD
+http://cdntv.online/high/bmzasdci3fnx/2328.mpeg
+#EXTINF:0 tvg-id="2329" tvg-logo="http://epg.cdntv.online/img/2329.png" group-title="Фильмы И Сериалы", KBC-НАШ ROCK
+http://cdntv.online/high/bmzasdci3fnx/2329.mpeg
+#EXTINF:0 tvg-id="2330" tvg-logo="http://epg.cdntv.online/img/2330.png" group-title="Фильмы И Сериалы", KBC-Сказочный Remake
+http://cdntv.online/high/bmzasdci3fnx/2330.mpeg
+#EXTINF:0 tvg-id="2331" tvg-logo="http://epg.cdntv.online/img/2331.png" group-title="Фильмы И Сериалы", TvBoom.VIP
+http://cdntv.online/high/bmzasdci3fnx/2331.mpeg
+#EXTINF:0 tvg-id="2332" tvg-logo="http://epg.cdntv.online/img/2332.png" group-title="Фильмы И Сериалы", KBC-Новогодний
+http://cdntv.online/high/bmzasdci3fnx/2332.mpeg
+#EXTINF:0 tvg-id="2333" tvg-logo="http://epg.cdntv.online/img/2333.png" group-title="Фильмы И Сериалы", KBC-КиноБиблия HD
+http://cdntv.online/high/bmzasdci3fnx/2333.mpeg
 #EXTINF:0 group-title="Фильмы И Сериалы" tvg-id="9226" tvg-logo="http://epg.one/img/9226.png" tvg-rec="3",VF Сериалы Турции
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/U8VGFNCKR4XDKSAHAQHEW37N/9123/index.m3u8
 #EXTINF:0 group-title="Фильмы И Сериалы" tvg-id="9227" tvg-logo="http://epg.one/img/9227.png" tvg-rec="0",VF Вестерн
@@ -12965,8 +12817,6 @@ http://cdntv.online/high/bmzasdci3fnx/1269.mpeg
 http://cdntv.online/high/bmzasdci3fnx/1424.mpeg
 #EXTINF:0 tvg-id="1425" tvg-logo="http://epg.cdntv.online/img/1425.png" group-title="Взрослые", xxx2
 http://cdntv.online/high/bmzasdci3fnx/1425.mpeg
-#EXTINF:0 tvg-id="1544" tvg-logo="http://epg.cdntv.online/img/1544.png" group-title="Взрослые", Sky High SEX
-http://cdntv.online/high/bmzasdci3fnx/1544.mpeg
 #EXTINF:0 tvg-id="1684" tvg-logo="http://epg.cdntv.online/img/1684.png" group-title="Взрослые", EroLuxe 60FPS
 http://cdntv.online/high/bmzasdci3fnx/1684.mpeg
 #EXTINF:0 tvg-id="1685" tvg-logo="http://epg.cdntv.online/img/1685.png" group-title="Взрослые", EroLuxe Anal
@@ -13049,10 +12899,6 @@ http://cdntv.online/high/bmzasdci3fnx/1722.mpeg
 http://cdntv.online/high/bmzasdci3fnx/1723.mpeg
 #EXTINF:0 tvg-id="2016" tvg-logo="http://epg.cdntv.online/img/2016.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Взрослые", LIBERTY Эротика
 http://cdntv.online/high/bmzasdci3fnx/2016.mpeg
-#EXTINF:0 tvg-id="2261" tvg-logo="http://epg.cdntv.online/img/2261.png" group-title="Взрослые", Play-x Retro SEX HD
-http://cdntv.online/high/bmzasdci3fnx/2261.mpeg
-#EXTINF:0 tvg-id="2262" tvg-logo="http://epg.cdntv.online/img/2262.png" group-title="Взрослые", Play-x Spy Sex HD
-http://cdntv.online/high/bmzasdci3fnx/2262.mpeg
 #EXTINF:0 group-title="Взрослые" tvg-id="7714" tvg-logo="http://epg.one/img/7714.png" tvg-rec="0",VF Граиндхаус
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/U8VGFNCKR4XDKSAHAQHEW37N/14158/index.m3u8
 #EXTINF:0 group-title="Взрослые" tvg-id="2780" tvg-logo="http://epg.one/img/2780.png" tvg-rec="3",Extasy Platinum 4K
